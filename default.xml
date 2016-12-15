@@ -483,12 +483,15 @@
   <project path="packages/apps/Settings" name="mj1687/packages_apps_Settings" remote="github" revision="elixium-7.1" />
   <project path="packages/apps/TuningOptions" name="mj1687/packages_apps_TuningOptions" remote="github" revision="nougat7.1" />
   <project path="frameworks/base" name="mj1687/platform_framework_base" remote="github" revision="elixium-7.1" />
+
+  <!-- ELIXIUM DEVICES -->
   <project path="kernel/htc/flounder" name="mj1687/kernel_htc_flounder" remote="github" revision="n7.0" />
   <project path="device/htc/floundr" name="mj1687/android_device_htc_flounder" remote="github" revision="nougat7.1" />
   <project path="device/moto/shamu" name="mj1687/android_device_moto_shamu" remote="github" revision="nougat7.1" />
   <project path="vendor/moto" name="PureNexusProject/proprietary_vendor_moto" remote="github" revision="n" />
   <project path="kernel/moto/shamu" name="nitrogen-os-devices/android_kernel_moto_shamu" remote="github" revision="n2" />
-   <project path="frameworks/av" name="mj1687/platform_frameworks_av" remote="github" revision="elixium-7.1" />
+  <project path="device/oneplus/oneplus3t" name="mj1687/android_device_oneplus3t" remote="github" revision="elixium-7.1" />
+  <project path="device/oppo/common" name="mj1687/device_oppo_common" remote="github" revision="n7" />
   <!-- END ELIXIUM -->
 
   <!-- CAF -->
