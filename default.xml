@@ -483,6 +483,7 @@
   <project path="packages/apps/Settings" name="mj1687/packages_apps_Settings" remote="github" revision="elixium-7.1" />
   <project path="packages/apps/TuningOptions" name="mj1687/packages_apps_TuningOptions" remote="github" revision="nougat7.1" />
   <project path="frameworks/base" name="mj1687/platform_framework_base" remote="github" revision="elixium-7.1" />
+  <project path="frameworks/av" name="mj1687/platform_frameworks_av" remote="github" revision="elixium-7.1" />
 
   <!-- ELIXIUM DEVICES -->
   <project path="kernel/htc/flounder" name="mj1687/kernel_htc_flounder" remote="github" revision="n7.0" />
