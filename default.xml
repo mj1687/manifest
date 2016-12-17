@@ -497,7 +497,15 @@
   <project path="vendor/oneplus/oneplus3t" name="mj1687/proprietary_vendor_oneplus3t" remote="github" revision="elixium-7.1" />  
   <project path="device/oppo/common" name="mj1687/device_oppo_common" remote="github" revision="n7" />
   <!-- END ELIXIUM -->
-
+  
+  <!-- START CM -->
+  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" remote="github" revision="cm-14.1" />
+  <project path="packages/resources/devicesettings" name="CyanogenMod/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
+  <!-- END CM -->
+    
   <!-- CAF -->
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-14.1" remote="github" />
