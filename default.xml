@@ -504,6 +504,7 @@
   <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/Nfc" name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-14.1" />
   <!-- END CM -->
     
   <!-- CAF -->
