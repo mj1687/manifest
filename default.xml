@@ -492,6 +492,7 @@
   <project path="vendor/elixium" name="mj1687/vendor_elixium" remote="github" revision="elixium-7.1" >
         <linkfile src="builder.sh" dest="builder.sh" />
   </project>
+  <project path="hardware/qcom/display/msm8996" name="mj1687/hardware_qcom_display_msm8996" remote="github" revision="master" />
   <project path="packages/apps/Settings" name="mj1687/packages_apps_Settings" remote="github" revision="elixium-7.1" />
   <project path="packages/apps/TuningOptions" name="mj1687/packages_apps_TuningOptions" remote="github" revision="nougat7.1" />
   <project path="frameworks/base" name="mj1687/platform_framework_base" remote="github" revision="elixium-7.1" />
