@@ -5,7 +5,7 @@
         fetch="https://android.googlesource.com"
         review="android-review.googlesource.com" />
 
-    <default revision="refs/tags/android-7.1.1_r4" remote="aosp" sync-j="16" />
+    <default revision="refs/tags/android-7.1.1_r7" remote="aosp" sync-j="16" />
 
     <remote name="nos"
         fetch="https://github.com/nitrogen-project"
@@ -98,7 +98,6 @@
     <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
     <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
     <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
-    <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
     <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
     <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
     <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
@@ -480,7 +479,6 @@
   <project path="external/skia" name="android_external_skia" remote="nos" revision="n2" />
   <project path="external/android-snackbar" name="android_external_android-snackbar" remote="nos" revision="n2" />
   <project path="external/busybox" name="android_external_busybox" remote="nos" revision="n2" />
-  <project path="external/DUtils" name="android_external_DUtils" remote="nos" revision="n2" />
   <project path="external/exfat" name="android_external_exfat" remote="nos" revision="n2" />
   <project path="external/google" name="android_external_google" remote="nos" revision="n2" />
 
@@ -495,7 +493,7 @@
   <project path="hardware/qcom/display/msm8996" name="mj1687/hardware_qcom_display_msm8996" remote="github" revision="master" />
   <project path="packages/apps/Settings" name="mj1687/packages_apps_Settings" remote="github" revision="elixium-7.1" />
   <project path="packages/apps/TuningOptions" name="mj1687/packages_apps_TuningOptions" remote="github" revision="nougat7.1" />
-  <project path="frameworks/base" name="mj1687/platform_framework_base" remote="github" revision="elixium-7.1" />
+  <project path="frameworks/base" name="mj1687/platform_framework_base" remote="github" revision="new-elixium-7.1" />
   <project path="frameworks/av" name="mj1687/platform_frameworks_av" remote="github" revision="elixium-7.1" />
 
   <!-- ELIXIUM DEVICES -->
@@ -572,7 +570,6 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="nos" revision="n2" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="nos" revision="n2" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="nos" revision="n2" />
-  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="nos" revision="n2" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="nos" revision="n2" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="nos" revision="n2" />
