@@ -4,6 +4,10 @@
     <remote name="aosp"
         fetch="https://android.googlesource.com"
         review="android-review.googlesource.com" />
+    
+    <remote  name="discovery"
+        fetch="https://github.com/DiscoveryTeam"
+        revision="aosp-N-legacy" />
 
     <default revision="refs/tags/android-7.1.1_r7" remote="aosp" sync-j="16" />
 
@@ -453,6 +457,23 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
+  <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="discovery" />
+  <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="discovery" />
+  <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="discovery" />
+  
+  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="discovery" />
+  <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="discovery" />
+  <project path="external/fuse" name="platform_external_fuse" remote="discovery" />
+  <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="discovery" />
+  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
+  <project path="external/libselinux" name="platform_external_libselinux" groups="pdk" remote="discovery" />
+  <project path="external/lz4" name="platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
+  <project path="external/lzma" name="platform_external_lzma" groups="pdk" remote="discovery" />
+  <project path="external/okhttp" name="platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
+  <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="discovery" />
+  <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="discovery" />
+  <project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="discovery" />   
 
   <!-- START ELIXIUM -->
   <project path="build" name="mj1687/platform_build" groups="pdk" remote="github" revision="elixium-7.1" >
