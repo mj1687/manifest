@@ -9,7 +9,7 @@
         fetch="https://github.com/DiscoveryTeam"
         revision="aosp-N-legacy" />
 
-    <default revision="refs/tags/android-7.1.1_r7" remote="aosp" sync-j="16" />
+    <default revision="refs/tags/android-7.1.1_r6" remote="aosp" sync-j="16" />
 
     <remote name="nos"
         fetch="https://github.com/nitrogen-project"
