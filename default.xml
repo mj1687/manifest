@@ -506,39 +506,40 @@
   <!-- END DISCOVERY TEAM -->
   
   <!-- START LAOS -->
-  <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" remote="github" revision="cm-14.1" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-  <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
-  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
-  <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
-  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-14.1" />
-  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" remote="github" revision="cm-14.1" />
-  <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" remote="github" revision="cm-14.1" />
-  <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" remote="github" revision="cm-14.1" />
+  <project path="hardware/cyanogen" name="Cyanogenmod/android_hardware_cyanogen" remote="github" revision="cm-14.1" />
+  <project path="packages/resources/devicesettings" name="Cyanogenmod/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="Cyanogenmod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="Cyanogenmod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="Cyanogenmod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
+  <project path="external/fuse" name="Cyanogenmod/android_external_fuse" remote="github" revision="cm-14.1" />
+  <project path="external/tinycompress" name="Cyanogenmod/android_external_tinycompress" remote="github" revision="cm-14.1" />
+  <project path="frameworks/opt/hardware" name="Cyanogenmod/android_frameworks_opt_hardware" remote="github" revision="cm-14.1" />
+  <project path="vendor/cmsdk" name="Cyanogenmod/cm_platform_sdk" remote="github" revision="cm-14.1" />
   <!-- END LAOS -->
     
   <!-- CAF -->
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" revision="cm-14.1" remote="github" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" revision="cm-14.1" remote="github" />
-  <project path="external/brctl" name="LineageOS/android_external_brctl" revision="cm-14.1" remote="github" />
-  <project path="external/connectivity" name="LineageOS/android_external_connectivity" revision="cm-14.1" remote="github" />
-  <project path="external/ebtables" name="LineageOS/android_external_ebtables" revision="cm-14.1" remote="github" />
-  <project path="external/gson" name="LineageOS/android_external_gson" revision="cm-14.1" remote="github" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" revision="cm-14.1" remote="github" />
-  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" revision="cm-14.1" remote="github" />
-  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" revision="cm-14.1" remote="github" />
-  <project path="external/powertop" name="LineageOS/android_external_powertop" revision="cm-14.1" remote="github" />
-  <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" revision="cm-14.1" remote="github" />
-  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-14.1" remote="github" />
-  <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" revision="cm-14.1" remote="github" />
-  <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" revision="cm-14.1" remote="github" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
-  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
+  <project path="device/qcom/common" name="Cyanogenmod/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  <project path="device/qcom/sepolicy" name="Cyanogenmod/android_device_qcom_sepolicy" revision="cm-14.1" remote="github" />
+  <project path="external/ant-wireless/antradio-library" name="Cyanogenmod/android_external_ant-wireless_antradio-library" revision="cm-14.1" remote="github" />
+  <project path="external/brctl" name="Cyanogenmod/android_external_brctl" revision="cm-14.1" remote="github" />
+  <project path="external/connectivity" name="Cyanogenmod/android_external_connectivity" revision="cm-14.1" remote="github" />
+  <project path="external/ebtables" name="Cyanogenmod/android_external_ebtables" revision="cm-14.1" remote="github" />
+  <project path="external/gson" name="Cyanogenmod/android_external_gson" revision="cm-14.1" remote="github" />
+  <project path="external/json-c" name="Cyanogenmod/android_external_json-c" revision="cm-14.1" remote="github" />
+  <project path="external/libnetfilter_conntrack" name="Cyanogenmod/android_external_libnetfilter_conntrack" revision="cm-14.1" remote="github" />
+  <project path="external/libnfnetlink" name="Cyanogenmod/android_external_libnfnetlink" revision="cm-14.1" remote="github" />
+  <project path="external/powertop" name="Cyanogenmod/android_external_powertop" revision="cm-14.1" remote="github" />
+  <project path="external/protobuf-c" name="Cyanogenmod/android_external_protobuf-c" revision="cm-14.1" remote="github" />
+  <project path="vendor/qcom/opensource/dataservices" name="Cyanogenmod/android_vendor_qcom_opensource_dataservices" revision="cm-14.1" remote="github" />
+  <project path="vendor/qcom/opensource/dpm" name="Cyanogenmod/android_vendor_qcom_opensource_dpm" revision="cm-14.1" remote="github" />
+  <project path="vendor/qcom/opensource/time-services" name="Cyanogenmod/android_vendor_qcom_opensource_time-services" revision="cm-14.1" remote="github" />
+  <project path="system/qcom" name="Cyanogenmod/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="Cyanogenmod/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
+  <project path="vendor/qcom/opensource/bluetooth" name="Cyanogenmod/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
   <project path="vendor/qcom/binaries" name="TeamOrion-Devices/proprietary_vendor_qcom_binaries" remote="github" revision="n" />
   <project path="vendor/qcom" name="mnemonyc/proprietary_vendor_qcom" remote="github" revision="aosp-N-legacy" />
-
+  <!-- END CAF -->
+    
   <!-- START NITROGENOS -->
   <project path="build/kati" name="android_build_kati" remote="nos" revision="n2" />
   <project path="art" name="android_art" remote="nos" revision="n2" />
