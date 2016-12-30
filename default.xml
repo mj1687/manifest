@@ -201,7 +201,6 @@
     <project path="system/firewalld" name="platform/system/firewalld" />
     <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
     <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-    <project path="system/media" name="platform/system/media" groups="pdk" />
     <project path="system/nativepower" name="platform/system/nativepower" />
     <project path="system/netd" name="platform/system/netd" groups="pdk" />
     <project path="system/nvram" name="platform/system/nvram" />
@@ -471,7 +470,8 @@
   <project path="packages/apps/Settings" name="mj1687/packages_apps_Settings" remote="github" revision="new-elixium-7.1" />
   <project path="packages/apps/DNA" name="mj1687/packages_apps_DNA" remote="github" revision="elixium-7.1" />
   <project path="frameworks/base" name="mj1687/platform_framework_base" remote="github" revision="new-elixium-7.1" />
-  <project path="frameworks/av" name="mj1687/platform_frameworks_av" remote="github" revision="elixium-7.1" />
+  <project path="frameworks/av" name="mj1687/platform_frameworks_av" remote="github" revision="caf-7.1" />
+  <project path="system/media" name="mj1687/platform_system_media" groups="pdk" remote="github" revision="caf-7.1" />
 
   <!-- ELIXIUM DEVICES -->
   <project path="kernel/htc/flounder" name="mj1687/kernel_htc_flounder" remote="github" revision="n7.0" />
