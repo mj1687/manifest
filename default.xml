@@ -462,7 +462,6 @@
   <project path="build" name="mj1687/platform_build" groups="pdk" remote="github" revision="elixium-7.1" >
         <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="mj1687/platform_bionic" remote="github" revision="elixium-7.1" />
   <project path="vendor/elixium" name="mj1687/vendor_elixium" remote="github" revision="elixium-7.1" >
         <linkfile src="builder.sh" dest="builder.sh" />
   </project>
@@ -472,6 +471,7 @@
   <project path="frameworks/base" name="mj1687/platform_framework_base" remote="github" revision="new-elixium-7.1" />
   <project path="frameworks/av" name="mj1687/platform_frameworks_av" remote="github" revision="caf-7.1" />
   <project path="system/media" name="mj1687/platform_system_media" groups="pdk" remote="github" revision="caf-7.1" />
+  <project path="system/extras" name="mj1687/platform_system_extras" remote="github" revision="caf-7.1" />
 
   <!-- ELIXIUM DEVICES -->
   <project path="kernel/htc/flounder" name="mj1687/kernel_htc_flounder" remote="github" revision="n7.0" />
@@ -488,14 +488,14 @@
   <!-- START DISCOVERY TEAM -->
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="discovery" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="discovery" />   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="discovery" />
+  <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="discovery" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="discovery" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="discovery" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="discovery" />
   <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="discovery" />
   <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="discovery" />
-  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="external/libselinux" name="platform_external_libselinux" groups="pdk" remote="discovery" />
   <project path="external/lz4" name="platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="external/lzma" name="platform_external_lzma" groups="pdk" remote="discovery" />
@@ -514,10 +514,12 @@
   <project path="external/fuse" name="Cyanogenmod/android_external_fuse" remote="github" revision="cm-14.1" />
   <project path="external/tinycompress" name="Cyanogenmod/android_external_tinycompress" remote="github" revision="cm-14.1" />
   <project path="frameworks/opt/hardware" name="Cyanogenmod/android_frameworks_opt_hardware" remote="github" revision="cm-14.1" />
+  <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
   <project path="vendor/cmsdk" name="Cyanogenmod/cm_platform_sdk" remote="github" revision="cm-14.1" />
   <!-- END LAOS -->
     
   <!-- CAF -->
+  <project path="bionic" name="AOSP-CAF/platform_bionic" remote="github" revision="n-mr1" />
   <project path="device/qcom/common" name="Cyanogenmod/android_device_qcom_common" remote="github" revision="cm-14.1" />
   <project path="device/qcom/sepolicy" name="Cyanogenmod/android_device_qcom_sepolicy" revision="cm-14.1" remote="github" />
   <project path="external/ant-wireless/antradio-library" name="Cyanogenmod/android_external_ant-wireless_antradio-library" revision="cm-14.1" remote="github" />
@@ -548,7 +550,6 @@
   <project path="frameworks/support" name="android_frameworks_support" remote="nos" revision="n2" />
   <project path="system/bt" name="android_system_bt" remote="nos" revision="n2" />
   <project path="system/core" name="android_system_core" remote="nos" revision="n2" />
-  <project path="system/extras" name="android_system_extras" remote="nos" revision="n2" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="n2" />
   <project path="system/vold" name="android_system_vold" remote="nos" revision="n2" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nos" revision="n2" />
