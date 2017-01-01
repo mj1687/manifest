@@ -15,6 +15,10 @@
         fetch="https://github.com/nitrogen-project"
         sync-j="16"/>
 
+    <remote name="bitbucket"
+            fetch="https://bitbucket.org"
+            revision="master" />
+
     <remote name="github"
         fetch="https://github.com" />
 
@@ -169,9 +173,6 @@
     <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" />
     <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
     <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
     <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
     <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" />
     <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" />
@@ -518,6 +519,12 @@
   <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
   <project path="vendor/cmsdk" name="Cyanogenmod/cm_platform_sdk" remote="github" revision="cm-14.1" />
   <!-- END LAOS -->
+
+  <!-- START UBER TC -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="mdalexca/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bitbucket" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" groups="pdk,linux,arm" remote="bitbucket" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bitbucket" />
+  <!-- END UBER TC --> 
     
   <!-- CAF -->
   <project path="bionic" name="AOSP-CAF/platform_bionic" remote="github" revision="n-mr1" />
