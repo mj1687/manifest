@@ -488,6 +488,7 @@
   <!-- END ELIXIUM -->
  
   <!-- START DISCOVERY TEAM -->
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="discovery" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="discovery" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="discovery" />
@@ -515,6 +516,7 @@
   <project path="vendor/nxp-nfc/opensource/Nfc" name="Cyanogenmod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
   <project path="external/fuse" name="Cyanogenmod/android_external_fuse" remote="github" revision="cm-14.1" />
   <project path="external/tinycompress" name="Cyanogenmod/android_external_tinycompress" remote="github" revision="cm-14.1" />
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="github" revision="cm-14.1" />
   <project path="frameworks/opt/hardware" name="Cyanogenmod/android_frameworks_opt_hardware" remote="github" revision="cm-14.1" />
   <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
   <project path="vendor/cmsdk" name="Cyanogenmod/cm_platform_sdk" remote="github" revision="cm-14.1" />
@@ -579,7 +581,6 @@
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="nos" revision="n2" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="nos" revision="n2" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="n2" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="nos" revision="n2" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="nos" revision="n2" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="nos" revision="n2" />
