@@ -466,6 +466,7 @@
   <project path="frameworks/base" name="mj1687/platform_framework_base" remote="github" revision="new-elixium-7.1" />
   <project path="frameworks/av" name="mj1687/platform_frameworks_av" remote="github" revision="caf-7.1" />
   <project path="system/extras" name="mj1687/platform_system_extras" remote="github" revision="caf-7.1" />
+  <project path="system/core" name="mj1687/platform_system_core" groups="pdk" remote="github" revision="caf-7.1" />
 
   <!-- ELIXIUM DEVICES -->
   <project path="kernel/htc/flounder" name="mj1687/kernel_htc_flounder" remote="github" revision="n7.0" />
@@ -474,7 +475,7 @@
   <project path="vendor/moto" name="PureNexusProject/proprietary_vendor_moto" remote="github" revision="android-7.1" />
   <project path="kernel/moto/shamu" name="mj1687/kernel_moto_shamu" remote="github" revision="nougat" />
   <project path="device/oneplus/oneplus3t" name="mj1687/android_device_oneplus3t" remote="github" revision="elixium-7.1" />
-  <project path="kernel/oneplus/oneplus3t" name="Grarak/android_kernel_oneplus_msm8996" remote="github" revision="cm-14.1" />
+  <project path="kernel/oneplus/oneplus3t" name="mj1687/android_kernel_oneplus_msm8996" remote="github" revision="cm-14.1" />
   <project path="vendor/oneplus/oneplus3t" name="mj1687/proprietary_vendor_oneplus3t" remote="github" revision="elixium-7.1" />  
   <project path="device/oppo/common" name="mj1687/device_oppo_common" remote="github" revision="n7" />
   <!-- END ELIXIUM -->
@@ -500,7 +501,6 @@
   <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="discovery" />
   <project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="discovery" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="discovery" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="discovery" />
   <project path="system/media" name="platform_system_media" remote="discovery" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="discovery" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="discovery" />
