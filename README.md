@@ -7,7 +7,7 @@ To build Elixium you need to donwload our source.
 
 To initialize your local repository, use this command:
 
-repo init -u https://github.com/mj1687/manifest.git -b elixium-7.1
+repo init -u https://github.com/mj1687/manifest.git -b caf-7.1
 
 Now it's time to sync, use this command:
 
