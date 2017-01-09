@@ -9,7 +9,7 @@
         fetch="https://github.com/DiscoveryTeam"
         revision="aosp-N-legacy" />
 
-    <default revision="refs/tags/android-7.1.1_r12" remote="aosp" sync-j="16" />
+    <default revision="refs/tags/android-7.1.1_r13" remote="aosp" sync-j="16" />
 
     <remote name="nos"
         fetch="https://github.com/nitrogen-project"
@@ -464,7 +464,6 @@
   <project path="packages/apps/Settings" name="mj1687/packages_apps_Settings" remote="github" revision="new-elixium-7.1" />
   <project path="packages/apps/DNA" name="mj1687/packages_apps_DNA" remote="github" revision="elixium-7.1" />
   <project path="frameworks/base" name="mj1687/platform_framework_base" remote="github" revision="new-elixium-7.1" />
-  <project path="frameworks/av" name="mj1687/platform_frameworks_av" remote="github" revision="caf-7.1" />
   <project path="system/extras" name="mj1687/platform_system_extras" remote="github" revision="caf-7.1" />
   <project path="system/core" name="mj1687/platform_system_core" groups="pdk" remote="github" revision="caf-7.1" />
 
@@ -481,7 +480,7 @@
   <!-- END ELIXIUM -->
  
   <!-- START DISCOVERY TEAM -->
-  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="discovery" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="discovery" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="discovery" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="discovery" />
@@ -611,6 +610,7 @@
   <!-- END CAF -->
     
   <!-- START NITROGENOS -->
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="nos" revision="n2" />
   <project path="art" name="android_art" remote="nos" revision="n2" />
   <project path="frameworks/support" name="android_frameworks_support" remote="nos" revision="n2" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="n2" />
