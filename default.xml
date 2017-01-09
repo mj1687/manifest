@@ -40,7 +40,7 @@
   <project path="packages/apps/Settings" name="mj1687/packages_apps_Settings" remote="github" revision="new-elixium-7.1" />
   <project path="packages/apps/DNA" name="mj1687/packages_apps_DNA" remote="github" revision="elixium-7.1" />
   <project path="system/extras" name="mj1687/platform_system_extras" remote="github" revision="caf-7.1" />
-  <project path="system/core" name="mj1687/platform_system_core" groups="pdk" remote="github" revision="caf-7.1" />
+<!--  <project path="system/core" name="mj1687/platform_system_core" groups="pdk" remote="github" revision="caf-7.1" /> -->
 
   <!-- Devices -->
   <project path="kernel/htc/flounder" name="mj1687/kernel_htc_flounder" remote="github" revision="n7.0" />
