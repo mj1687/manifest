@@ -39,6 +39,7 @@
   </project>
   <project path="packages/apps/Settings" name="mj1687/packages_apps_Settings" remote="github" revision="new-elixium-7.1" />
   <project path="packages/apps/DNA" name="mj1687/packages_apps_DNA" remote="github" revision="elixium-7.1" />
+  <project path="frameworks/base" name="mj1687/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="new-elixium-7.1" />
 <!--  <project path="system/extras" name="mj1687/platform_system_extras" remote="github" revision="caf-7.1" /> -->
 <!--  <project path="system/core" name="mj1687/platform_system_core" groups="pdk" remote="github" revision="caf-7.1" /> -->
 
@@ -89,7 +90,6 @@
 
   <!-- Discovery ROM frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="discovery" />
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="discovery" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="discovery" />
@@ -123,9 +123,6 @@
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="discovery" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="discovery" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="discovery" />
-
-  <!-- Discovery ROM vendor -->
-  <project path="vendor/discovery" name="proprietary_vendor_discovery" remote="discovery" />
 
 <!-- End DiscoveryTeam repos -->
 
