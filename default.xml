@@ -37,7 +37,7 @@
   <project path="vendor/elixium" name="mj1687/vendor_elixium" remote="github" revision="elixium-7.1" >
         <linkfile src="builder.sh" dest="builder.sh" />
   </project>
-  <project path="packages/apps/Settings" name="mj1687/packages_apps_Settings" remote="github" revision="new-elixium-7.1" />
+  <project path="packages/apps/Settings" name="mj1687/platform_packages_apps_Settings" remote="github" revision="elixium-7.1" />
   <project path="packages/apps/DNA" name="mj1687/packages_apps_DNA" remote="github" revision="elixium-7.1" />
   <project path="frameworks/base" name="mj1687/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="new-elixium-7.1" />
 <!--  <project path="system/extras" name="mj1687/platform_system_extras" remote="github" revision="caf-7.1" /> -->
@@ -246,8 +246,9 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" /> -->
+  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" /> 
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
+  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" />
