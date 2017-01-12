@@ -231,6 +231,8 @@
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
+  <project path="vendor/qcom/binaries" name="DirtyUnicorns/android_vendor_qcom_binaries" remote="github" revision="n7x-caf" />
+  <project path="vendor/qcom" name="mnemonyc/proprietary_vendor_qcom" remote="github" revision="aosp-N-legacy" />
 
 <!-- AOSP repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
