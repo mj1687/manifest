@@ -58,7 +58,6 @@
 <!-- Start Uber TC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bitbucket" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" groups="pdk,linux,arm" remote="bitbucket" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" remote="bitbucket" />
 <!-- End Uber TC --> 
 
 <!-- Start NitrogenOS repos -->
@@ -210,7 +209,7 @@
   <project path="vendor/nxp-nfc/opensource/Nfc" name="Cyanogenmod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
 
   <!-- CMSDK -->
-  <project path="vendor/cmsdk" name="LineageOS/android_prebuilts_cmsdk" remote="github" revision="cm-14.1" />
+  <project path="vendor/cmsdk" name="mj1687/cm_platform_sdk" remote="github" revision="cm-14.1" />
 
 <!-- End LineageOS -->
 
@@ -605,6 +604,7 @@
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" />
