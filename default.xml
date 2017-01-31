@@ -46,15 +46,15 @@
   <project path="frameworks/base" name="mj1687/platform_framework_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="new-elixium-7.1" />
 
   <!-- Devices -->
-  <project path="kernel/htc/flounder" name="mj1687/kernel_htc_flounder" remote="github" revision="n7.0" />
-  <project path="device/htc/floundr" name="mj1687/android_device_htc_flounder" remote="github" revision="nougat7.1" />
+<!--  <project path="kernel/htc/flounder" name="mj1687/kernel_htc_flounder" remote="github" revision="n7.0" />
+  <project path="device/htc/floundr" name="mj1687/android_device_htc_flounder" remote="github" revision="nougat7.1" /> -->
   <project path="device/moto/shamu" name="mj1687/android_device_moto_shamu" remote="github" revision="android-7.1" />
   <project path="vendor/moto" name="PureNexusProject/proprietary_vendor_moto" remote="github" revision="android-7.1" />
   <project path="kernel/moto/shamu" name="mj1687/kernel_moto_shamu" remote="github" revision="nougat" />
   <project path="device/oneplus/oneplus3t" name="mj1687/android_device_oneplus3t" remote="github" revision="elixium-7.1" />
   <project path="kernel/oneplus/oneplus3t" name="mj1687/android_kernel_oneplus_msm8996" remote="github" revision="cm-14.1" />
   <project path="vendor/oneplus/oneplus3t" name="mj1687/proprietary_vendor_oneplus3t" remote="github" revision="elixium-7.1" />  
-  <project path="device/oppo/common" name="mj1687/device_oppo_common" remote="github" revision="n7" />
+  <project path="device/oppo/common" name="VanirAOSP/device_oppo_common" remote="github" revision="n71" />
 <!-- End ElixiumOS -->
 
 <!-- Start Uber TC -->
@@ -101,7 +101,6 @@
 
   <!-- Misc ROM packages [AOSP-CAF & DiscoveryTeam] -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp-caf" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosp-caf" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" groups="pdk-fs" remote="discovery" />
@@ -202,7 +201,8 @@
 
   <!-- LineageOS's packages -->
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" revision="cm-14.1" remote="github" />
-  
+  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="cm-14.1" />
+
   <!-- LineageOS's vendor -->
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-14.1" remote="github" />
   <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" revision="cm-14.1" remote="github" />
@@ -210,9 +210,6 @@
   <project path="vendor/nxp-nfc/opensource/frameworks" name="Cyanogenmod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="Cyanogenmod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/Nfc" name="Cyanogenmod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
-
-  <!-- CMSDK -->
-  <project path="vendor/cmsdk" name="mj1687/cm_platform_sdk" remote="github" revision="cm-14.1" />
 
 <!-- End LineageOS -->
 
