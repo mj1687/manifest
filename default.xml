@@ -101,8 +101,8 @@
 
   <!-- Misc ROM packages [AOSP-CAF & DiscoveryTeam] -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp-caf" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="discovery" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="discovery" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="aosp-caf" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="discovery" />
