@@ -49,7 +49,10 @@
   <!-- Packages -->
   <project path="packages/apps/Settings" name="mj1687/platform_packages_apps_Settings" remote="github" revision="new-elixium-7.1" />
   <project path="packages/apps/DNA" name="mj1687/packages_apps_DNA" remote="github" revision="elixium-7.1" />
+
+  <!-- Frameworks -->
   <project path="frameworks/base" name="mj1687/platform_framework_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="new-elixium-7.1" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="n-mr1" />
 
   <!-- Hardware -->
   <project path="hardware/ril-caf" name="https://github.com/mj1687/platform_hardware_ril-caf" groups="pdk" remote="github" revision="caf-7.1" />
@@ -102,7 +105,6 @@
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aosp-caf" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="discovery" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aosp-caf" />
   
   <!-- Discovery ROM hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="discovery" />
@@ -110,6 +112,8 @@
   <!-- Misc ROM packages [AOSP-CAF & DiscoveryTeam] -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp-caf" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="discovery" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="discovery" />
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="discovery" />
@@ -207,8 +211,6 @@
 
   <!-- LineageOS's packages -->
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" revision="cm-14.1" remote="github" />
-  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="cm-14.1" />
-  <project path="packages/apps/ContactsCommon" name="LineageOS/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="cm-14.1" />
 
   <!-- LineageOS's vendor -->
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-14.1" remote="github" />
