@@ -52,7 +52,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="mj1687/platform_framework_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="new-elixium-7.1" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="n-mr1" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aosp-caf" />
 
   <!-- Hardware -->
   <project path="hardware/ril-caf" name="https://github.com/mj1687/platform_hardware_ril-caf" groups="pdk" remote="github" revision="caf-7.1" />
