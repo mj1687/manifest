@@ -8,6 +8,8 @@
 
 |Know issues  | Consider that the problems on Nexus devices are probablly reflected on pixels  |
 |-----------: | :--------------------------------------------------------------------------------------|
-|On Nexus| com.android.phone crash, solution it's use the stock fw opt telephony  |
+|On Nexus| com.android.phone crash, solution it's use my fw opt telephony (link below)  |
+
+framework_opt_telephony (stay with branch elixium-7.1): https://github.com/mj1687/platform_frameworks_opt_telephony
 
 
