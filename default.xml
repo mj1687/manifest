@@ -35,19 +35,26 @@
         revision="n-mr1" />
 
 <!-- Start ElixiumOS repos -->
+
+  <!-- Build -->
   <project path="build" name="mj1687/platform_build" groups="pdk" remote="github" revision="elixium-7.1" >
         <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <!-- ElixiumOS vendor -->
   <project path="vendor/elixium" name="mj1687/vendor_elixium" remote="github" revision="elixium-7.1" >
         <linkfile src="builder.sh" dest="builder.sh" />
   </project>
+
+  <!-- Packages -->
   <project path="packages/apps/Settings" name="mj1687/platform_packages_apps_Settings" remote="github" revision="new-elixium-7.1" />
   <project path="packages/apps/DNA" name="mj1687/packages_apps_DNA" remote="github" revision="elixium-7.1" />
   <project path="frameworks/base" name="mj1687/platform_framework_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="new-elixium-7.1" />
 
+  <!-- Hardware -->
+  <project path="hardware/ril-caf" name="https://github.com/mj1687/platform_hardware_ril-caf" groups="pdk" remote="github" revision="caf-7.1" />
+
   <!-- Devices -->
-<!--  <project path="kernel/htc/flounder" name="mj1687/kernel_htc_flounder" remote="github" revision="n7.0" />
-  <project path="device/htc/floundr" name="mj1687/android_device_htc_flounder" remote="github" revision="nougat7.1" /> -->
   <project path="device/moto/shamu" name="mj1687/android_device_moto_shamu" remote="github" revision="android-7.1" />
   <project path="vendor/moto" name="PureNexusProject/proprietary_vendor_moto" remote="github" revision="android-7.1" />
   <project path="kernel/moto/shamu" name="mj1687/kernel_moto_shamu" remote="github" revision="nougat" />
@@ -55,6 +62,8 @@
   <project path="kernel/oneplus/oneplus3t" name="mj1687/android_kernel_oneplus_msm8996" remote="github" revision="cm-14.1" />
   <project path="vendor/oneplus/oneplus3t" name="mj1687/proprietary_vendor_oneplus3t" remote="github" revision="elixium-7.1" />  
   <project path="device/oppo/common" name="VanirAOSP/device_oppo_common" remote="github" revision="n71" />
+
+
 <!-- End ElixiumOS -->
 
 <!-- Start Uber TC -->
@@ -97,12 +106,10 @@
   
   <!-- Discovery ROM hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="discovery" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril-caf" groups="pdk" remote="discovery" />
 
   <!-- Misc ROM packages [AOSP-CAF & DiscoveryTeam] -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp-caf" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="discovery" />
-  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="discovery" />
@@ -193,7 +200,6 @@
   <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1" remote="github" />
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" remote="github" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1" remote="github" />
   <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" revision="cm-14.1" remote="github" />
   <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" revision="cm-14.1" remote="github" />
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" revision="cm-14.1" remote="github" />
@@ -202,6 +208,7 @@
   <!-- LineageOS's packages -->
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" revision="cm-14.1" remote="github" />
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/ContactsCommon" name="LineageOS/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="cm-14.1" />
 
   <!-- LineageOS's vendor -->
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-14.1" remote="github" />
