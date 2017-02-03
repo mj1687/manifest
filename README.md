@@ -14,6 +14,9 @@
 |Solution| use my packages/services/telecomm instead of the caf one      |
 
 framework_opt_telephony (stay with branch elixium-7.1): https://github.com/mj1687/platform_frameworks_opt_telephony
+
 telephony: https://github.com/mj1687/android_packages_services_Telephony
+
 telecomm (stay with the caf-7.1 branch): https://github.com/mj1687/platform_packages_services_Telecomm
+
 
