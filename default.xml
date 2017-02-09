@@ -9,7 +9,7 @@
     * -->
 <manifest>
 
-    <default revision="refs/tags/android-7.1.1_r13" remote="aosp" sync-j="16" />
+    <default revision="refs/tags/android-7.1.1_r22" remote="aosp" sync-j="16" />
 
     <remote name="aosp"
         fetch="https://android.googlesource.com"
@@ -208,6 +208,7 @@
 
   <!-- LineageOS's packages -->
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" revision="cm-14.1" remote="github" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" remote="github" />
 
   <!-- LineageOS's vendor -->
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-14.1" remote="github" />
