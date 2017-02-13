@@ -235,7 +235,7 @@
   <project path="external/powertop" name="LineageOS/android_external_powertop" revision="cm-14.1" remote="github" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" revision="cm-14.1" remote="github" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="SlimRoms/vendor_codeaurora_telephony" revision="ng7.1" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
   <project path="vendor/qcom/binaries" name="DirtyUnicorns/android_vendor_qcom_binaries" remote="github" revision="n7x-caf" />
   <project path="vendor/qcom" name="mnemonyc/proprietary_vendor_qcom" remote="github" revision="aosp-N-legacy" />
