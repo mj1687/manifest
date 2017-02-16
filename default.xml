@@ -100,9 +100,9 @@
   <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="discovery" />
   <project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="discovery" />
 
-  <!-- Misc ROM frameworks [AOSP-CAF & DiscoveryTeam] -->
+  <!-- Misc ROM frameworks [ElixiumOS - DiscoveryTeam] -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="elixium-caf" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aosp-caf" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="elixium-caf" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="discovery" />
   
@@ -126,7 +126,7 @@
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aosp-caf" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosp-caf" />
 
-  <!-- Misc ROM systems [AOSP-CAF & DiscoveryTeam]  -->
+  <!-- Misc ROM systems [AOSP-CAF - ElixiumOS - DiscoveryTeam]  -->
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aosp-caf" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="elixium-caf" />
   <project path="system/extras" name="platform_system_extras" remote="aosp-caf" />
