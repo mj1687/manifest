@@ -101,7 +101,7 @@
   <project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="discovery" />
 
   <!-- Misc ROM frameworks [AOSP-CAF & DiscoveryTeam] -->
-  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aosp-caf" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="elixium-caf" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aosp-caf" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="discovery" />
