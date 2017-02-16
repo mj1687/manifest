@@ -34,10 +34,14 @@
         fetch="https://github.com/AOSP-CAF"
         revision="n-mr1" />
 
+    <remote name="elixium-caf"
+        fetch="https://github.com/mj1687"
+        revision="caf-7.1" />
+
 <!-- Start ElixiumOS repos -->
 
   <!-- Build -->
-  <project path="build" name="mj1687/platform_build" groups="pdk" remote="github" revision="caf-7.1" >
+  <project path="build" name="mj1687/platform_build" groups="pdk" remote="github" revision="test-7.1" >
         <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -124,7 +128,7 @@
 
   <!-- Misc ROM systems [AOSP-CAF & DiscoveryTeam]  -->
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aosp-caf" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="aosp-caf" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="elixium-caf" />
   <project path="system/extras" name="platform_system_extras" remote="aosp-caf" />
   <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="discovery" />
   <project path="system/media" name="platform_system_media" remote="aosp-caf" />
