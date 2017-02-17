@@ -65,8 +65,6 @@
   <project path="device/oneplus/oneplus3t" name="mj1687/android_device_oneplus3t" remote="github" revision="elixium-7.1" />
   <project path="kernel/oneplus/oneplus3t" name="mj1687/android_kernel_oneplus_msm8996" remote="github" revision="cm-14.1" />
   <project path="vendor/oneplus/oneplus3t" name="mj1687/proprietary_vendor_oneplus3t" remote="github" revision="elixium-7.1" />  
-  <project path="device/oppo/common" name="VanirAOSP/device_oppo_common" remote="github" revision="n71" />
-
 
 <!-- End ElixiumOS -->
 
@@ -126,14 +124,14 @@
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aosp-caf" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosp-caf" />
 
-  <!-- Misc ROM systems [AOSP-CAF - ElixiumOS - DiscoveryTeam]  -->
+  <!-- Misc ROM systems [AOSP-CAF - ElixiumOS - DiscoveryTeam - DirtyUnicorns]  -->
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="aosp-caf" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="elixium-caf" />
   <project path="system/extras" name="platform_system_extras" remote="aosp-caf" />
   <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="discovery" />
   <project path="system/media" name="platform_system_media" remote="aosp-caf" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="discovery" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="discovery" />
+  <project path="system/sepolicy" name="DirtyUnicorns/android_system_sepolicy" groups="pdk" remote="github" revision="n7x" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aosp-caf" />
 
 <!-- End DiscoveryTeam repos -->
@@ -225,7 +223,7 @@
 <!-- End LineageOS -->
 
 <!-- Caf additions -->
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" revision="cm-14.1" remote="github" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="elixium-caf" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" revision="cm-14.1" remote="github" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" revision="cm-14.1" remote="github" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" revision="cm-14.1" remote="github" />
