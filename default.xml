@@ -61,14 +61,15 @@
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="elixium-caf" />
   <project path="frameworks/base" name="platform_framework_base" groups="pdk-cw-fs,pdk-fs" remote="elixium-caf" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="elixium-caf" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="elixium-caf" />
 
   <!-- Devices -->
   <project path="device/oneplus/oneplus3" name="device_oneplus_oneplus3" remote="elixium-caf" />
   <project path="kernel/oneplus/msm8996" name="android_kernel_oneplus_msm8996" remote="elixium-caf" />
-  <project path="vendor/oneplus/oneplus3" name="android_vendor_oneplus" revision="n7x-caf" remote="du" />
+  <project path="vendor/oneplus" name="proprietary_vendor_oneplus3" remote="discovery" />
 
   <!-- Systems -->
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="elixium-caf" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="elixium-caf" />
 
   <!-- Misc -->
   <project path="bionic" name="AOSPA/android_bionic" remote="github" revision="nougat-mr1" /> 
@@ -97,7 +98,6 @@
 
   <!-- Frameworks -->
   <project path="frameworks/support" name="android_frameworks_support" remote="du" revision="n7x" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="n7x" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" revision="n7x" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" revision="n7x" />
 
