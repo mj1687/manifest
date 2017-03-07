@@ -72,11 +72,11 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="elixium-caf" />
 
   <!-- Misc -->
-  <project path="bionic" name="AOSPA/android_bionic" remote="github" revision="nougat-mr1" /> 
   <project path="bootable/recovery" name="nitrogen-project/android_bootable_recovery" remote="github" revision="n2" />
 
   <!-- DirtyUnicorns -->
 
+  <project path="bionic" name="android_bionic" remote="du" revision="n7x" />
   <project path="art" name="android_art" remote="du" revision="n7x" />
 
   <!-- Hardware -->
