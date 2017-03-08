@@ -41,7 +41,7 @@
   <include name="aosp.xml" />
   <include name="caf-lineage.xml" />
 
-  <!-- ElixiumOS -->
+<!-- ElixiumOS -->
 
   <!-- Build -->
   <project path="build" name="platform_build" groups="pdk" remote="elixium-caf" >
@@ -70,11 +70,14 @@
 
   <!-- Systems -->
   <project path="system/core" name="android_system_core" groups="pdk" remote="elixium-caf" />
+  
+  <!-- Externals -->
+  <project path="external/ipsec-tools" name="ElixiumOS/android_external_ipsec-tools" remote="github" revision="cm-14.1" />
 
   <!-- Misc -->
   <project path="bootable/recovery" name="nitrogen-project/android_bootable_recovery" remote="github" revision="n2" />
 
-  <!-- DirtyUnicorns -->
+<!-- DirtyUnicorns -->
 
   <project path="bionic" name="android_bionic" remote="du" revision="n7x" />
   <project path="art" name="android_art" remote="du" revision="n7x" />
@@ -111,7 +114,7 @@
   <!-- Externals -->
   <project path="external/fuse" name="android_external_fuse" remote="du" revision="n7x-caf" />
 
-  <!-- Discovery ROM -->
+<!-- Discovery ROM -->
 
   <!-- Externals -->
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
@@ -120,7 +123,6 @@
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="aosp-caf" />
   <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="discovery" />
   <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="discovery" />
-  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="external/libselinux" name="platform_external_libselinux" groups="pdk" remote="discovery" />
   <project path="external/lz4" name="platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="external/lzma" name="platform_external_lzma" groups="pdk" remote="discovery" />
@@ -142,9 +144,10 @@
   <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="discovery" />
 
 
-  <!-- UBERTC -->
-
+<!-- UBERTC -->
+  <!-- arm64 tc -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bitbucket" />
+  <!-- arm tc -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" groups="pdk,linux,arm" remote="bitbucket" />
 
 </manifest>
