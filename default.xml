@@ -77,6 +77,7 @@
 
   <!-- Systems -->
   <project path="system/core" name="platform_system_core" groups="pdk" remote="elixium-caf" />
+  <project path="system/keymaster" name="platform_system_keymaster" remote="elixium-caf" />
   <project path="system/vold" name="platform_system_vold" remote="elixium-caf" />
   <project path="system/bt" name="platform_system_bt" remote="elixium-caf" />
 
