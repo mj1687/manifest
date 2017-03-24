@@ -49,14 +49,13 @@
   </project>
 
   <!-- Vendor -->
-  <project path="vendor/elixium" name="ElixiumOS/vendor_elixium" remote="github" revision="elixium-7.1" >
-        <linkfile src="builder.sh" dest="builder.sh" />
-  </project>
+  <project path="vendor/elixium" name="vendor_elixium" remote="elixium-caf" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="elixium-caf" />
 
   <!-- Packages -->
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="elixium-caf" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="elixium-caf" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="elixium-caf" />
   <project path="packages/apps/Settings" name="ElixiumOS/platform_packages_apps_Settings" remote="github" revision="new-elixium-7.1" />
@@ -68,6 +67,7 @@
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="elixium-caf" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="elixium-caf" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="elixium-caf" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="elixium-caf" />
 
   <!-- Devices -->
   <project path="device/oppo/common" name="device_oppo_common" remote="discovery" />
@@ -98,7 +98,6 @@
 
   <!-- Frameworks -->
   <project path="frameworks/support" name="android_frameworks_support" remote="du" revision="n7x" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" revision="n7x" />
 
   <!-- Systems -->
   <project path="system/extras" name="android_system_extras" remote="du" revision="n7x-caf" />
