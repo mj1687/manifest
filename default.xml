@@ -94,7 +94,6 @@
 
   <!-- Hardware -->
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="n7x" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" remote="du" revision="n7x-caf" />
 
 
   <!-- Frameworks -->
