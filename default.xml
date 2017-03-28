@@ -58,7 +58,7 @@
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="elixium-caf" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="elixium-caf" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="elixium-caf" />
-  <project path="packages/apps/Settings" name="ElixiumOS/platform_packages_apps_Settings" remote="github" revision="new-elixium-7.1" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="elixium-caf" />
   <project path="packages/apps/DNA" name="ElixiumOS/packages_apps_DNA" remote="github" revision="elixium-7.1" />
 
   <!-- Frameworks -->
@@ -74,6 +74,10 @@
   <project path="device/oneplus/oneplus3" name="device_oneplus_oneplus3" remote="elixium-caf" />
   <project path="kernel/oneplus/msm8996" name="ElixiumOS/android_kernel_oneplus_msm8996" remote="github" revision="elix-discovery-7.1" />
   <project path="vendor/oneplus" name="proprietary_vendor_oneplus3" remote="discovery" />
+  <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" groups="pdk" remote="elixium-caf" />
+  <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" groups="pdk" remote="discovery" />
+  <project path="kernel/xiaomi/msm8996" name="platform_kernel_xiaomi_msm8996" remote="discovery" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="discovery" />
 
   <!-- Systems -->
   <project path="system/core" name="platform_system_core" groups="pdk" remote="elixium-caf" />
