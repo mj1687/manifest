@@ -8,7 +8,7 @@
     * -->
 <manifest>
 
-    <default revision="refs/tags/android-7.1.1_r28" remote="aosp" sync-j="16" />
+    <default revision="refs/tags/android-7.1.2_r5" remote="aosp" sync-j="16" />
 
     <remote name="github"
         fetch="https://github.com" />
@@ -19,7 +19,7 @@
 
     <remote name="elixium-caf"
         fetch="https://github.com/ElixiumOS"
-        revision="caf-7.1" />
+        revision="caf-7.1.2" />
 
     <remote  name="du"
         fetch="https://github.com/DirtyUnicorns/"
@@ -28,6 +28,10 @@
     <remote name="aosp-caf"
         fetch="https://github.com/AOSP-CAF"
         revision="n-mr1" />
+
+    <remote name="codeaurora"
+        fetch="https://source.codeaurora.org/quic/la"
+        revision="refs/tags/LA.UM.5.5.r1-04000-8x96.0" />
 
   <!-- Build --> 
   <project path="build/kati" name="LineageOS/android_build_kati" remote="github" revision="cm-14.1" />
@@ -116,6 +120,7 @@
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" revision="cm-14.1" remote="github" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" revision="cm-14.1" remote="github" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosp-caf" />
+  <project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="codeaurora" />
   <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
   <project path="vendor/qcom" name="mnemonyc/proprietary_vendor_qcom" remote="github" revision="aosp-N-legacy" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-14.1" remote="github" />
