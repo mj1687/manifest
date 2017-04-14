@@ -65,15 +65,15 @@
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="elixium-caf" />
   <project path="frameworks/base" name="platform_framework_base" groups="pdk-cw-fs,pdk-fs" remote="elixium-caf" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="elixium-caf" />
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="elixium-caf" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="discovery" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="elixium-caf" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="elixium-caf" />
 
   <!-- Devices -->
   <project path="device/oppo/common" name="DiscoveryTeam/device_oppo_common" remote="github" revision="aosp-N-legacy" />
   <project path="device/oneplus/oneplus3" name="device_oneplus_oneplus3" remote="elixium-caf" />
-  <project path="kernel/oneplus/msm8996" name="ElixiumOS/android_kernel_oneplus_msm8996" remote="github" revision="elix-discovery-7.1" />
-  <project path="vendor/oneplus" name="DiscoveryTeam/proprietary_vendor_oneplus3" remote="github" revision="aosp-N-legacy" />
+  <project path="kernel/oneplus/msm8996" name="ElixiumOS/android_kernel_oneplus_msm8996" remote="github" revision="Tunder-1.0" />
+  <project path="vendor/oneplus" name="proprietary_vendor_oneplus3" remote="discovery" />
   <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" groups="pdk" remote="elixium-caf" />
   <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" groups="pdk" remote="discovery" />
   <project path="kernel/xiaomi/msm8996" name="DiscoveryTeam/platform_kernel_xiaomi_msm8996" remote="github" revision="aosp-N-legacy" />
