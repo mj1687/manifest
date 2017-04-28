@@ -55,14 +55,14 @@
   <project path="vendor/elixium" name="vendor_elixium" remote="elixium-caf" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="elixium-caf" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="elixium-caf" />
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="elixium-caf" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="elixium-caf" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="elixium-caf" />
   <project path="packages/apps/DNA" name="ElixiumOS/packages_apps_DNA" remote="github" revision="elixium-7.1" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="du" revision="n7x" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="elixium-caf" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="elixium-caf" />
@@ -79,10 +79,6 @@
   <project path="kernel/motorola/msm8996" name="ElixiumOS/android_kernel_motorola_msm8996" remote="github" revision="Tunder-1.0" />
   <project path="device/motorola/griffin" name="device_motorola_griffin" remote="elixium-caf" />
   <project path="vendor/motorola" name="proprietary_vendor_griffin" remote="discovery" />
-  <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" groups="pdk" remote="elixium-caf" />
-  <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" groups="pdk" remote="discovery" />
-  <project path="kernel/xiaomi/msm8996" name="DiscoveryTeam/platform_kernel_xiaomi_msm8996" remote="github" revision="aosp-N-legacy" />
-  <project path="vendor/xiaomi" name="DiscoveryTeam/proprietary_vendor_xiaomi" remote="github" revision="aosp-N-legacy" />
 
   <!-- Systems -->
   <project path="system/core" name="platform_system_core" groups="pdk" remote="elixium-caf" />
@@ -131,8 +127,8 @@
   <project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="discovery" />
 
   <!-- Packages -->
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="discovery" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="discovery" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
@@ -175,5 +171,5 @@
 
 <!-- OMNI -->
   <!-- packages -->
-  <project path="packages/apps/MusicFX" name="omnirom/android_packages_apps_MusicFX" remote="github" revision="android-7.1" />
+  <project path="packages/apps/MusicFX" name="omnirom/android_packages_apps_MusicFX" remote="github" revision="android-7.1" /> 
 </manifest>
