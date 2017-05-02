@@ -7,14 +7,10 @@
     * -->
 <manifest>
 
-    <default revision="refs/tags/android-7.1.2_r5" remote="aosp" sync-j="16" />
+    <default revision="refs/tags/android-7.1.2_r11" remote="aosp" sync-j="16" />
 
     <remote name="github"
         fetch="https://github.com" />
-
-    <remote name="aosp"
-        fetch="https://android.googlesource.com"
-        review="android-review.googlesource.com" />
 
     <remote name="elixium-caf"
         fetch="https://github.com/ElixiumOS"
