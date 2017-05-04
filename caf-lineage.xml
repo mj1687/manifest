@@ -99,7 +99,7 @@
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" remote="github" />
 
   <!-- Codeaurora -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="elixium-caf" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="elixium-caf" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" revision="cm-14.1" remote="github" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" revision="cm-14.1" remote="github" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" revision="cm-14.1" remote="github" />
