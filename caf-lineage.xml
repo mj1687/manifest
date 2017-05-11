@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--*
-    * This is the caf manifest for build ElixiumOS on caf devices.
-    * If you want to compile ElixiumOS for a Nexus (or Pixel) device switch to the nexus-7.1 branch.
-    * If you are building on MacOS you need to add the required toolchains from the AOSP manifest.
-    * The manifest includes the Uber Toolchain.
+    * This is the caf-lineage part of the manifest.
     * Have a nice day
     * -->
 <manifest>
@@ -31,6 +28,8 @@
   <project path="build/kati" name="LineageOS/android_build_kati" remote="github" revision="cm-14.1" />
 
   <!-- Externals -->
+  <project path="external/boringssl" name="LineageOS/android_external_boringssl" remote="github" revision="cm-14.1" />
+  <project path="external/ipsec-tools" name="LineageOS/android_external_ipsec-tools" remote="github" revision="cm-14.1" />
   <project path="external/e2fsprogs" groups="pdk" name="LineageOS/android_external_e2fsprogs" remote="github" revision="cm-14.1" />
   <project path="external/htop" name="LineageOS/android_external_htop" revision="cm-14.1" remote="github" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" revision="cm-14.1" remote="github" />
@@ -97,6 +96,7 @@
   <!-- Packages -->
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" revision="cm-14.1" remote="github" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" remote="github" />
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" revision="cm-14.1" remote="github" />
 
   <!-- Codeaurora -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="elixium-caf" />

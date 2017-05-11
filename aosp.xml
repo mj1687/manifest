@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--*
-    * This is the caf manifest for build ElixiumOS on caf devices.
-    * If you want to compile ElixiumOS for a Nexus (or Pixel) device switch to the nexus-7.1 branch.
-    * If you are building on MacOS you need to add the required toolchains from the AOSP manifest.
-    * The manifest includes the Uber Toolchain.
+    * This is the caf aosp part of the manifest.
     * Have a nice day
     * -->
 <manifest>

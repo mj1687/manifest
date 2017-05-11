@@ -55,7 +55,6 @@
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="elixium-caf" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="elixium-caf" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="elixium-caf" />
   <project path="packages/apps/DNA" name="ElixiumOS/packages_apps_DNA" remote="github" revision="elixium-7.1" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="elixium-caf" />
@@ -63,7 +62,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="elixium-caf" />
   <project path="frameworks/base" name="platform_framework_base" groups="pdk-cw-fs,pdk-fs" remote="elixium-caf" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="elixium-caf" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="discovery" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="elixium-caf" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="elixium-caf" />
 
@@ -78,24 +77,19 @@
 
   <!-- Systems -->
   <project path="system/core" name="platform_system_core" groups="pdk" remote="elixium-caf" />
+  <project path="system/extras" name="platform_system_extras" remote="elixium-caf" />
   <project path="system/keymaster" name="platform_system_keymaster" remote="elixium-caf" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="elixium-caf" />
-  <project path="system/vold" name="platform_system_vold" remote="elixium-caf" />
-
-  <!-- Externals -->
-  <project path="external/ipsec-tools" name="ElixiumOS/android_external_ipsec-tools" remote="github" revision="cm-14.1" />
 
   <!-- Misc -->
   <project path="bootable/recovery" name="nitrogen-project/android_bootable_recovery" remote="github" revision="n2" />
 
-<!-- DirtyUnicorns -->
 
-  <project path="bionic" name="android_bionic" remote="du" revision="n7x" />
-  <project path="art" name="android_art" remote="du" revision="n7x" />
+
+<!-- DirtyUnicorns -->
 
   <!-- Hardware -->
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="n7x" />
-
 
   <!-- Frameworks -->
   <project path="frameworks/support" name="android_frameworks_support" remote="du" revision="n7x" />
@@ -109,9 +103,12 @@
 
 <!-- Discovery ROM -->
 
+  <!-- Misc -->
+  <project path="bionic" name="platform_bionic" remote="discovery" />
+  <project path="art" name="platform_art" remote="discovery" />
+
   <!-- Externals -->
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
-  <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="discovery" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="discovery" />
   <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="discovery" />
   <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="discovery" />
@@ -121,6 +118,7 @@
   <project path="external/okhttp" name="platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="discovery" />
   <project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="discovery" />
+  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="discovery" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="discovery" />
@@ -138,6 +136,7 @@
 
   <!-- Systems -->
   <project path="system/bt" name="platform_system_bt" remote="discovery" />
+  <project path="system/vold" name="platform_system_vold" remote="discovery" />
 
 <!-- OmniROM -->
 
@@ -146,14 +145,6 @@
 
   <!-- Packages -->
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="omni" />
-  
-<!-- AOSPA -->
-
-  <!-- Externals -->
-  <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" groups="pdk" remote="github" revision="nougat-mr2" />
-
-  <!-- System -->
-  <project path="system/extras" name="AOSPA/android_system_extras" remote="github" revision="nougat-mr2" />
 
 <!-- UBERTC -->
   <!-- arm64 tc -->
@@ -164,8 +155,4 @@
 <!-- Projekt -->
   <project path="packages/apps/ThemeInterfacer" name="ElixiumOS/platform_packages_apps_ThemeInterfacer" remote="github" revision="elixium-7.1" />
 
-
-<!-- OMNI -->
-  <!-- packages -->
-  <project path="packages/apps/MusicFX" name="omnirom/android_packages_apps_MusicFX" remote="github" revision="android-7.1" /> 
 </manifest>
