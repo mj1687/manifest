@@ -36,6 +36,10 @@
         fetch="https://github.com/omnirom" 
         revision="android-7.1" />
 
+    <remote name="ex"
+        fetch="https://github.com/AospExtended"
+        revision="7.x" />
+
   <!-- The others manifests -->
   <include name="aosp.xml" />
   <include name="caf-lineage.xml" />
@@ -57,12 +61,11 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="elixium-caf" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="elixium-caf" />
   <project path="packages/apps/DNA" name="ElixiumOS/packages_apps_DNA" remote="github" revision="elixium-7.1" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="elixium-caf" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="elixium-caf" />
-  <project path="frameworks/base" name="platform_framework_base" groups="pdk-cw-fs,pdk-fs" remote="elixium-caf" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="discovery" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="elixium-caf" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="elixium-caf" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="elixium-caf" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="elixium-caf" />
 
@@ -78,15 +81,20 @@
   <!-- Systems -->
   <project path="system/core" name="platform_system_core" groups="pdk" remote="elixium-caf" />
   <project path="system/extras" name="platform_system_extras" remote="elixium-caf" />
-  <project path="system/keymaster" name="platform_system_keymaster" remote="elixium-caf" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="elixium-caf" />
+
+  <!-- Externals -->
+  <project path="external/boringssl" name="platform_external_boringssl" remote="elixium-caf" />
 
   <!-- Misc -->
   <project path="bootable/recovery" name="nitrogen-project/android_bootable_recovery" remote="github" revision="n2" />
-
-
+  <project path="bionic" name="platform_bionic" remote="elixium-caf" />
 
 <!-- DirtyUnicorns -->
+
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="du" revision="n7x" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <!-- Hardware -->
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="n7x" />
@@ -104,8 +112,7 @@
 <!-- Discovery ROM -->
 
   <!-- Misc -->
-  <project path="bionic" name="platform_bionic" remote="discovery" />
-  <project path="art" name="platform_art" remote="discovery" />
+  <project path="art" name="platform_art" remote="discovery" /> 
 
   <!-- Externals -->
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
@@ -122,10 +129,8 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="discovery" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="discovery" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" groups="pdk-fs" remote="discovery" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="discovery" />
@@ -133,10 +138,18 @@
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="discovery" />
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="discovery" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="discovery"  />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="discovery"  />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="discovery"  />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="discovery"  />
 
   <!-- Systems -->
   <project path="system/bt" name="platform_system_bt" remote="discovery" />
   <project path="system/vold" name="platform_system_vold" remote="discovery" />
+  <project path="system/kerymaster" name="platform_system_keymaster" remote="discovery" />
+
+<!-- AospExtended -->
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="ex" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="ex" revision="7.1.1" />
 
 <!-- OmniROM -->
 
@@ -147,6 +160,8 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="omni" />
 
 <!-- UBERTC -->
+  <!-- arm64 5.X tc -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1" name="DespairFactor/aarch64-linux-android-6.x" remote="bitbucket" />
   <!-- arm64 tc -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bitbucket" />
   <!-- arm tc -->
