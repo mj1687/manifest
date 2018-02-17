@@ -143,6 +143,6 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="du" revision="o8x-caf" />
 
   <!-- misc -->
-  <project path="bionic" name="android_bionic" remote="elix" />
+  <project path="bionic" name="platform_bionic" remote="elix" />
 
 </manifest>
