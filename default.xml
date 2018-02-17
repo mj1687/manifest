@@ -628,6 +628,6 @@
   <include name="remove.xml" />
 
   <!-- Add all tracked DU/AOSP repos -->
-  <include name="o8x_default.xml" />
+  <include name="custom.xml" />
 
 </manifest>
