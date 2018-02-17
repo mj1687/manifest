@@ -131,7 +131,6 @@
   <project path="system/vold" name="android_system_vold" remote="du" revision="o8x-caf" />
   <project path="system/qcom" name="system_qcom" remote="gzosp" revision="8.1" />
   <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="elix" />
-  <project path="system/libhidl" name="system_libhidl" remote="gzosp" revision="8.1" />
 
   <!-- prebuilts -->
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="du" />
