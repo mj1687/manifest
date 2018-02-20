@@ -119,7 +119,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="elix" revision="elix-8.1-rebase" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" />
+  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" remote="github" revision="lineage-15.1" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" revision="o8x-caf" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" revision="o8x-caf" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="staging/lineage-15.1" />
